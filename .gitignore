@@ -1,0 +1,21 @@
+# Credentials & API Keys (Crucial for Cloud & BigQuery)
+*.json
+.env
+
+# Raw and Processed Data Files
+data/*
+!data/.gitkeep
+
+# Python System Caches & Temporary Files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment / Virtual Envs
+venv/
+env/
+.venv/
+
+# Mac / System Files
+.DS_StoreN
